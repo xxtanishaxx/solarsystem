@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>Solar System</h1>
+
+        <div class="buttons">
+            <button onclick="getMercury()">Mercury</button>
+            <button onclick="getVenus()">Venus</button>
+            <button onclick="getEarth()">Earth</button>
+            <button onclick="getMars()">Mars</button>
+            <button onclick="getJupiter()">Jupiter</button>
+            <button onclick="getSaturn()">Saturn</button>
+            <button onclick="getUranus()">Uranus</button>
+            <button onclick="getNeptune()">Neptune </button>
+        </div>
+
+        <div class="image">
+            <img id="planets" src="https://th.bing.com/th/id/OIP.BAosTjWP_dUL-4xX-qqj8wHaGD?w=214&h=180&c=7&r=0&o=5&pid=1.">
+        </div>
+        
+
+    </div>
+
+    <script>
+        function getMercury() {
+            document.getElementById("planets").src = "https://th.bing.com/th/id/OIP.nVIamqVvUzLZkgTZLX1M1gHaEJ?w=319&h=180&c=7&r=0&o=5&pid=1.7"
+        }
+
+        function getVenus() {
+            document.getElementById("planets").src = "https://th.bing.com/th/id/OIP.-9HGERLOgrbqq9doseJOsAHaHa?w=204&h=204&c=7&r=0&o=5&pid=1.7"
+        }
+
+        function getEarth() {
+            document.getElementById("planets").src = "https://th.bing.com/th/id/OIP.G-r6rLVY19Dmy2T6bcsX1wHaHa?w=187&h=187&c=7&r=0&o=5&pid=1.7"
+        }
+
+        function getMars() {
+            document.getElementById("planets").src = "https://th.bing.com/th/id/OIP.hFW6QGCMuhPBPnoTbUUTKAHaHa?w=169&h=180&c=7&r=0&o=5&pid=1.7"
+        }
+
+        function getJupiter() {
+            document.getElementById("planets").src = "https://th.bing.com/th/id/OIP.suQFDLLMKPAPMLE1-OjtYwHaHa?w=191&h=191&c=7&r=0&o=5&pid=1.7"
+        }
+
+        function getSaturn() {
+            document.getElementById("planets").src = "https://th.bing.com/th/id/OIP.FqaF2Jl27bOZCSTUH93NoAHaHa?w=154&h=180&c=7&r=0&o=5&pid=1.7"
+        }
+
+        function getUranus() {
+            document.getElementById("planets").src = "https://th.bing.com/th/id/OIP.vqfpWACSI91kB0fQntfd0QHaE7?w=258&h=180&c=7&r=0&o=5&pid=1.7"
+        }
+
+        function getNeptune() {
+            document.getElementById("planets").src = "https://th.bing.com/th/id/OIP.Z068LEIytsoetlOStdGt3wHaHa?w=191&h=191&c=7&r=0&o=5&pid=1.7"
+
+        }
+    </script>
+
+</body>
+
+</html>

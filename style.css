@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+}
+
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+}
+
+button{
+    background-color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    color: aqua;
+    border-radius: 10px;
+    font-size: 40px;
+    transition: 2s;
+}
+
+button:hover{
+    background-color: lightblue;
+    color: black;
+}
+
+.image{
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+img{
+    border-radius: 10px;
+    border: solid black 2px;
+    width: 40%;
+}
+
+
+
